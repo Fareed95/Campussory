@@ -1,0 +1,15 @@
+.clg{
+    height: 30vh;
+    width: 30vw;
+    background-color: aqua;
+}
+.stud{
+    height: 30vh;
+    width: 30vw;
+    background-color: aqua;
+
+}
+.form_comp{
+    display: flex;
+    justify-content: space-evenly;
+}
