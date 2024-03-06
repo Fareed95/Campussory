@@ -1,9 +1,11 @@
 import React from 'react'
-import Navbar from '/frontend/campussory-fr/src/components/Navbar.jsx'
+import Map from '/src/components/Map.jsx'
+import Placed from '../components/Placed'
 function Main() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Map></Map>
+      <Placed></Placed>
     </div>
   )
 }
