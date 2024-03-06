@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Map from '/src/components/Map.jsx'
 import Placed from '../components/Placed'
 function Main() {
@@ -6,6 +7,7 @@ function Main() {
     <div>
       <Map></Map>
       <Placed></Placed>
+
     </div>
   )
 }
