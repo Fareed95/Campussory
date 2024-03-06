@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Outfit";  
+   
+    
+}
+.Hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: #113768;
+    position: relative;
+    
+}
+
+#Hero #image{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh;
+    gap: 2vh;
+    margin-top: 1vh;
+    
+}
+
+#image #image_left img{
+    height: 50vh;
+    border-radius: 25px;
+
+}
+
+#image #image_right img{
+    height: 40vh;
+    width: 40vw;
+    border-radius: 25px;
+}
+
+#image #image_right #second img{
+    margin-top: 5vh;
+}
+
+#Hero #text {
+    font-size: 12vh;
+    color: #c7b198;  
+}
+
+#model img{
+    top: 15vh;
+    right: 2vh;
+    position: absolute;
+    z-index: 5;
+    height: 50vh;
+    width: 20vw;
+}
+#Hero #text #one{
+    position: absolute;   
+    top: 1vh;
+    left: 25vw;
+}    
+#Hero #text #one:hover{
+    color: white;
+}
+
+#Hero #text #two{
+    position: absolute;   
+    top: 22vh;
+    left: 45vw;
+    
+} 
+
+#Hero #text #two:hover{
+    color: white;
+}
+
+#Hero #text #three{
+    position: absolute;   
+    top:40vh;
+    left: 35vw;
+    
+} 
+
+#Hero #text #three:hover{
+    color: white;
+}
+
+#Hero #text #four{
+    position: absolute;   
+    top:60vh;
+    left: 20vw;   
+} 
+#Hero #text #four:hover{
+    color: white;
+}
+
+#Hero button{
+    position: absolute;
+    font-size: 5vh;
+    font-family: "Outfit";
+    width: 10vw;
+    top: 75vh;
+    right: 10vw;
+    border-radius: 50px;
+    color:black;
+    background-color: #e7f5fb;
+    opacity: 0.3;
+}
