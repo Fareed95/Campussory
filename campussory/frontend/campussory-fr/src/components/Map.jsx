@@ -25,6 +25,9 @@ function Map(){
   ]
     return(
         <div className="map">
+          <div id="text">
+            <h1>Office Locations</h1>
+          </div>
 <div className="im">
 <img className="vector" src={img}></img>
   </div>

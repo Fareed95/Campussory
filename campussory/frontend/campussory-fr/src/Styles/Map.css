@@ -1,22 +1,40 @@
 .leaflet-container{
-    height:90vh;
+    height:70vh;
     width: 50vw;
     margin: 5vh;
+    border-radius: 50px;
+    position: absolute;
+    top: 7vh;
 }
 .map{
     display: flex;
-
+    justify-content: space-around;
     justify-content: space-evenly;
     height: 100vh;
     width :100vw;
-align-items: center;
-background-color: #e7f5fb;
+    align-items: center;
+    background-color: #001a33;
+    position: relative;
+    
+
 }
 .imgbox{
    display: flex;
    justify-content: center;
-align-items: center;
+   align-items: center;
+   
 }
 .vector{
     width: 30vw;
+    
+}
+.map h1{
+    font-size: 8vh;
+    position: absolute;
+    top: 2vh;
+    right: 5vh;
+    color: #555555;
+    z-index: 999;
+
+
 }
