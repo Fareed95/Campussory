@@ -3,6 +3,7 @@ import '/src/Styles/Hero.css'
 import img2 from '/public/images/college campus 1.avif'
 import img3 from '/public/images/campus 2.jpg'
 import img4 from '/public/images/college campus 3.avif'
+import img5 from '/public/images/undraw_job_hunt.svg'
 
 function Hero() {
   return (
@@ -16,6 +17,9 @@ function Hero() {
           <img src={img3} alt="" />
           <img id="second" src={img4} alt="" />
         </div>    
+      </div>
+      <div id="model">
+        <img src={img5} alt="" />
       </div>
       <div id="text">
         <h1 id="one">Book</h1>

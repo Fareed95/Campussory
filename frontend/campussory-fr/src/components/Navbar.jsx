@@ -10,7 +10,6 @@ function Navbar() {
         </div>
         <div id="nav_right">
           <a href="">Home</a>
-          <a href="">Companies</a>
           <a href="">My Schedules</a>
           <a href="">Prep Materials</a>
         </div>

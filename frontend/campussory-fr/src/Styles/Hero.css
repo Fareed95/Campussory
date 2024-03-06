@@ -26,7 +26,7 @@
 }
 
 #image #image_left img{
-    height: 80vh;
+    height: 50vh;
     border-radius: 25px;
 
 }
@@ -43,16 +43,24 @@
 
 #Hero #text {
     font-size: 12vh;
-    color: white;  
+    color: #c7b198;  
 }
 
+#model img{
+    top: 15vh;
+    right: 2vh;
+    position: absolute;
+    z-index: 5;
+    height: 50vh;
+}
 #Hero #text #one{
     position: absolute;   
     top: 1vh;
     left: 25vw;
-    
-    
 }    
+#Hero #text #one:hover{
+    color: white;
+}
 
 #Hero #text #two{
     position: absolute;   
@@ -61,12 +69,20 @@
     
 } 
 
+#Hero #text #two:hover{
+    color: white;
+}
+
 #Hero #text #three{
     position: absolute;   
     top:40vh;
     left: 35vw;
     
 } 
+
+#Hero #text #three:hover{
+    color: white;
+}
 
 #Hero button{
     position: absolute;
