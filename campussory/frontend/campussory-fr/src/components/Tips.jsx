@@ -1,8 +1,8 @@
 import React from 'react'
-
+import '/src/Styles/tips.css'
 function Tips() {
   return (
-    <div>
+    <div className='tips'>
       
     </div>
   )
