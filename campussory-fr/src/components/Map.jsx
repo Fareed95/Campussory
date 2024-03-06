@@ -26,7 +26,8 @@ function Map(){
     return(
         <div className="map">
           <div id="text">
-            <h1>Office Locations</h1>
+            <h1>Office Locations.</h1>
+            <h3>Find all our recent and nearby officies</h3>
           </div>
 <div className="im">
 <img className="vector" src={img}></img>
