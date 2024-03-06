@@ -25,6 +25,7 @@ function Hero() {
         <h1 id="one">Book</h1>
         <h1 id="two" >Your</h1>
         <h1 id="three" >First</h1>
+        <h1 id="four" >Placement</h1>
       </div>
       <button>Now</button>
       </div>
