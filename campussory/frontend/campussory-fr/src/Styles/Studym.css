@@ -1,0 +1,16 @@
+
+.vector{
+    height:50vh;
+    object-fit: contain;
+    
+    margin: 5vh;
+}
+.studym{
+height: 60vh;
+width: 45vw;
+background-color: #e7f5fb;
+margin: 5vh;
+
+border-radius: 20%;
+
+}
