@@ -1,6 +1,6 @@
 import React from 'react'
 import '/src/Styles/Navbar.css'
-import img1 from '/public/images/logo-no-background.png'
+import img1 from '/public/images/WhatsApp Image 2024-03-07 at 12.25.22 AM.jpeg'
 function Navbar() {
   return (
     <div className='nav'>

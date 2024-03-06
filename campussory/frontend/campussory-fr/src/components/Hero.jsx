@@ -1,8 +1,8 @@
 import React from 'react'
 import '/src/Styles/Hero.css'
-import img2 from '/public/images/college campus 1.avif'
-import img3 from '/public/images/campus 2.jpg'
-import img4 from '/public/images/college campus 3.avif'
+import img2 from '/public/images/WhatsApp Image 2024-03-06 at 1.25.41 PM.jpeg'
+import img3 from '/public/images/WhatsApp Image 2024-03-06 at 1.29.38 PM.jpeg'
+import img4 from '/public/images/WhatsApp Image 2024-03-06 at 1.25.58 PM.jpeg'
 import img5 from '/public/images/undraw_job_hunt.svg'
 
 function Hero() {
