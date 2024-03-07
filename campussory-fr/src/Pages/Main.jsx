@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '/src/components/Navbar.jsx'
-import Map from '/src/components/Map.jsx'
 import Placed from '../components/Placed'
 import Hero from '/src/components/Hero.jsx'
+import Map from '/src/components/Map.jsx'
+import Navbar from '/src/components/Navbar.jsx'
 function Main() {
   return (
     <div>
