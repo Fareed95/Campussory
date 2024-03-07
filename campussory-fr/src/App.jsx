@@ -7,6 +7,9 @@ import Demo from '/src/Pages/Demo.jsx'
 import Form from '/src/components/Form.jsx'
 import Form1 from '/src/components/Form1.jsx'
 import Fareed from './components/Fareed'
+import Smaterial from './components/Smaterial'
+import Spaper from './components/Spaper'
+
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 import './App.css'
@@ -28,6 +31,8 @@ function App() {
         <Route path="/form" element ={<Form></Form>}></Route>
         <Route path="/form1" element ={<Form1></Form1>}></Route>
         <Route path="/fareed" element ={<Fareed></Fareed>}></Route>
+        <Route path="/Studymaterial" element ={<Smaterial></Smaterial>}></Route>
+        <Route path="/Samplepaper" element ={<Spaper></Spaper>}></Route>
 
        
 
