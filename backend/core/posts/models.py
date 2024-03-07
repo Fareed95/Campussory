@@ -10,10 +10,12 @@ class Client(models.Model):
     def __str__(self):
         return self.name
     
+
 class FormData(models.Model):
-    name = models.CharField(max_length=100)
-    phone_number = models.CharField(max_length=15)
-    email = models.EmailField()
+    name = models.CharField(max_length=100, default ="")
+    domain = models.CharField(max_length=100,default ="")
+    availability = models.CharField(max_length=100,default ="")
+    preference = models.CharField(max_length=100,default ="")
 
     def __str__(self):
         return self.name

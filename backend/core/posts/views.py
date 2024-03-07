@@ -1,28 +1,21 @@
-from django.shortcuts import render
-
-# Create your views here.
-# views.py
-from django.http import JsonResponse
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 from .models import FormData
-from django.views.decorators.csrf import csrf_exempt
+from .api.serializers import FormDataSerializer
 
-@csrf_exempt  # Disable CSRF protection for this view for simplicity (not recommended in production)
+@api_view(['POST'])
 def submit_form(request):
     if request.method == 'POST':
-        name = request.POST.get('name')
-        phone_number = request.POST.get('phoneNumber')
-        email = request.POST.get('email')
-
-        # Validate data (optional)
-        if name and phone_number and email:
-            # Save form data to the database
-            form_data = FormData.objects.create(
-                name=name,
-                phone_number=phone_number,
-                email=email
-            )
-            return JsonResponse({'message': 'Form data saved successfully.'})
-        else:
-            return JsonResponse({'error': 'Missing form fields.'}, status=400)
-
-    return JsonResponse({'error': 'Invalid request method.'}, status=405)
+        # Extract form data from request
+        name = request.data.get('name')
+        domain = request.data.get('domain')
+        availability = request.data.get('availability')
+        preference = request.data.get('preference')
+        print(name ,domain ,availability,preference)
+        
+        # Create and save an instance of the FormData model
+        form_data = FormData.objects.create(name=name, domain=domain, availability=availability, preference=preference)
+        
+        # Serialize the form data and return it in the response
+        serializer = FormDataSerializer(form_data)
+        return Response(serializer.data, status=201)
