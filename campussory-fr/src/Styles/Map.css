@@ -1,0 +1,44 @@
+.leaflet-container{
+    height:70vh;
+    width: 50vw;
+    margin: 5vh;
+    border-radius: 50px;
+    
+}
+.map{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    height: 100vh;
+    width :100vw;
+    align-items: center;
+    background-color: 	#66bbda;
+    
+
+}
+.imgbox{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.vector{
+    width: 30vw;
+    margin-top: 20vh;
+    
+}
+
+.map h1{
+    
+    font-size: 8vh;
+    position: absolute;
+    top: 2vh;
+    right: 15vh;
+}
+
+.map h3{
+    color: white;
+    width: 25vw;
+    font-size: 6vh;
+    position: absolute;
+    top: 15vh;
+}

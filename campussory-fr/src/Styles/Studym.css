@@ -1,0 +1,22 @@
+
+.vector{
+    height:50vh;
+    object-fit: contain;
+    
+    margin: 5vh;
+}
+.vector h2{
+    font-size: 2rem;
+}
+.studym{
+height: 60vh;
+width: 45vw;
+background-color: #e7f5fb;
+margin: 5vh;
+border-radius: 20%;
+
+}
+
+.studym img:hover{
+    background-color: #a4c6f3;
+}

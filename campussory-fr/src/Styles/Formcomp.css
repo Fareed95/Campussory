@@ -1,0 +1,17 @@
+.clg img{
+    height:30vh;
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* background-color: aqua; */
+}
+.stud img{
+    height:30vh;
+    width: 15vw;
+    border-radius: 50%;
+
+}
+.form_comp{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,26 @@
+#placed{
+    font-family: 'Outfit';
+    font-size: 5vh;
+    color: #ffffff;
+    text-align: center;
+    /* background-color: #113768; */
+    padding-top: 5vh;
+
+}
+
+.placed-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #113768;
+    padding-top: 5vh;
+    align-items: center;
+    text-align: center;
+}
+.placed-container{
+    background-color: #113768;
+}
+.placed-container h2{
+font-size: 2rem;
+}

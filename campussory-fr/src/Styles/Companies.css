@@ -1,0 +1,31 @@
+#scroll_tag{
+    bottom: 10vh;
+    left: 0px;
+    width: 100vw;
+    background-color: white; 
+    overflow: hidden;
+    padding: 1vh;
+    white-space: nowrap;
+}
+#scroll_tag #scroll{
+    display: inline-block;
+    animation: 5s scroll infinite linear;
+}
+#scroll img{
+    height: 15vh;
+    color: rgb(0, 0, 0);
+    margin: 0 2vw;
+    text-decoration: none;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(-100%);
+
+    }
+}
