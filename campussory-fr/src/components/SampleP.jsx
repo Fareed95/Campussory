@@ -5,7 +5,7 @@ function SampleP() {
   return (
     <div className='samplep'>
 <img className="vector" src={sample_img1}></img>     
-SAMPLE PAPER
+<h1>SAMPLE PAPER</h1>
     </div>
   )
 }
