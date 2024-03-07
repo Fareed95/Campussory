@@ -4,6 +4,7 @@ import img2 from '/public/images/WhatsApp Image 2024-03-06 at 1.25.41 PM.jpeg'
 import img3 from '/public/images/WhatsApp Image 2024-03-06 at 1.29.38 PM.jpeg'
 import img4 from '/public/images/WhatsApp Image 2024-03-06 at 1.25.58 PM.jpeg'
 import img5 from '/public/images/undraw_job_hunt.svg'
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -27,7 +28,7 @@ function Hero() {
         <h1 id="three" >First</h1>
         <h1 id="four" >Placement</h1>
       </div>
-      <button>Now</button>
+      <button><Link to = "/form">NOW</Link></button>
       </div>
       
     </div>

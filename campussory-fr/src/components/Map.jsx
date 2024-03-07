@@ -11,16 +11,16 @@ import img from '/public/undraw_adventure_map_hnin.svg'
 function Map(){
   const points=[
     {
-      coordinates:[18.490637,73.809486],
-      popup :"Code mainia 4.0 , 24 Feb saturday " 
+      coordinates:[19.048223596531358, 72.91141979223762],
+      popup :"You are here " 
     },
     {
-      coordinates:[17.546950,78.282730],
-      popup :"Hack to crack , 21 March " 
+      coordinates:[18.933700,72.836510],
+      popup :"Google office " 
     },
     {
-      coordinates:[19.0667, 72.826],
-      popup :"Cybersecurity workshop , 4-March " 
+      coordinates:[18.933700, 72.8464205],
+      popup :"JP morgan and chase " 
     },
   ]
     return(
@@ -36,7 +36,7 @@ function Map(){
 
 
 
-        <MapContainer center={[19.0667, 72.826]} zoom={8} scrollWheelZoom={false}>
+        <MapContainer center={[19.048223596531358, 72.91141979223762]} zoom={11} scrollWheelZoom={false}>
 
   <TileLayer
     attribution='&copy; <a https://api.maptiler.com/maps/satellite/tiles.json?key=bMEWXYfCjeUC5yYo4EOC'

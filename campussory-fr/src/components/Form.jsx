@@ -46,7 +46,7 @@ function Form() {
       <div>
         <label htmlFor="availability">Availability:</label>
         <input
-          type="text"
+          type="date"
           id="availability"
           value={availability}
           onChange={(e) => setAvailability(e.target.value)}
