@@ -1,0 +1,41 @@
+/* Styles for the sample paper list container */
+.sample-paper-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Styles for table headers */
+  th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Styles for table cells */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Styles for download links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  

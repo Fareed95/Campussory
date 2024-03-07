@@ -5,6 +5,9 @@
     
     margin: 5vh;
 }
+.vector h2{
+    font-size: 2rem;
+}
 .studym{
 height: 60vh;
 width: 45vw;
@@ -15,5 +18,5 @@ border-radius: 20%;
 }
 
 .studym img:hover{
-    background-color: #7fb2f4;
+    background-color: #a4c6f3;
 }
