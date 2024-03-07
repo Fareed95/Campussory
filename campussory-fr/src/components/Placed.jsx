@@ -7,67 +7,73 @@ function Placed() {
   const placedStudents = [
    
     {
-      img: 'path_to_image1.jpg',
+      img: '/public/images/undraw_male_avatar_g98d.svg',
       name: 'John Doe',
       dis: 'Computer Science',
       comp: 'ABC Technologies',
       amt: '$60,000',
     },
     {
-      img: 'path_to_image2.jpg',
+      img: '/public/images/undraw_female_avatar_efig.svg',
       name: 'Jane Smith',
       dis: 'Electrical Engineering',
       comp: 'XYZ Corporation',
       amt: '$65,000',
     },
     {
-      img: 'path_to_image1.jpg',
+      img: '/public/images/undraw_male_avatar_g98d.svg',
       name: 'John Doe',
       dis: 'Computer Science',
       comp: 'ABC Technologies',
       amt: '$60,000',
     },
     {
-      img: 'path_to_image2.jpg',
+      img: '/public/images/undraw_female_avatar_efig.svg',
       name: 'Jane Smith',
       dis: 'Electrical Engineering',
       comp: 'XYZ Corporation',
       amt: '$75,000',
     },
     {
-      img: 'path_to_image3.jpg',
+      img: '/public/images/undraw_male_avatar_g98d.svg',
       name: 'Alice Johnson',
       dis: 'Data Science',
       comp: '123 Enterprises',
       amt: '$80,000',
     },
     {
-      img: 'path_to_image4.jpg',
+      img: '/public/images/undraw_male_avatar_g98d.svg',
       name: 'Bob Williams',
       dis: 'Software Engineering',
       comp: 'Tech Solutions Inc.',
       amt: '$70,000',
     },
        {
-      img: 'path_to_image3.jpg',
+      img: '/public/images/undraw_female_avatar_efig.svg',
       name: 'Alice Johnson',
       dis: 'Data Science',
       comp: '123 Enterprises',
       amt: '$80,000',
     },
     {
-      img: 'path_to_image4.jpg',
+      img: '/public/images/undraw_male_avatar_g98d.svg',
       name: 'Bob Williams',
       dis: 'Software Engineering',
       comp: 'Tech Solutions Inc.',
       amt: '$70,000',
     },
-
+    {
+      img: '/public/images/undraw_female_avatar_efig.svg',
+      name: 'Alice Johnson',
+      dis: 'Data Science',
+      comp: '123 Enterprises',
+      amt: '$80,000',
+    }
   ];
 
   return (
     <div className="placed-container">
-      <h2>Placed Students</h2>
+      <h2 id='placed'>Placed Students</h2>
       <div className="placed-cards">
         {placedStudents.map((student, index) => (
           <PlacedCard
