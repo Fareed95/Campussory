@@ -8,5 +8,8 @@
 .vector{
     height:50vh;
     object-fit: contain;
-    border: 5px black solid;
+}
+
+.samplep img:hover{
+    background-color: #7fb2f4;
 }

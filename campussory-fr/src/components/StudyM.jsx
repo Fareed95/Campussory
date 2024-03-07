@@ -5,7 +5,7 @@ function StudyM() {
   return (
     <div className="studym">
 <img className="vector" src={study_img1}></img>
-STUDY MATERIAL
+<h1>STUDY MATERIAL</h1>
     </div>
   )
 }
