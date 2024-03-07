@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models import Client, FormData
+from ..models import Client, FormData, FormDataCompany
 
 class ClientSerializer(serializers.ModelSerializer):
     class Meta :
@@ -10,4 +10,9 @@ class ClientSerializer(serializers.ModelSerializer):
 class FormDataSerializer(serializers.ModelSerializer):
     class Meta:
         model = FormData
+        fields = '__all__'
+
+class FormCompanyDataSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = FormDataCompany
         fields = '__all__'

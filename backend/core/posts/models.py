@@ -19,3 +19,13 @@ class FormData(models.Model):
 
     def __str__(self):
         return self.name
+class FormDataCompany(models.Model):
+    name = models.CharField(max_length=100, default ="")
+    description = models.CharField(max_length=100,default ="")
+    no_of_people_needed = models.CharField(max_length=100,default ="")
+    domain_needed= models.CharField(max_length=100,default ="")
+    interview_date= models.CharField(max_length=100,default ="")
+
+
+    def __str__(self):
+        return self.name
