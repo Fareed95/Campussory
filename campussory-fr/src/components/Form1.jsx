@@ -1,5 +1,6 @@
+import axios from 'axios';
 import React, { useState } from 'react';
-import Navbar from '/src/components/Navbar.jsx'
+import Navbar from '/src/components/Navbar.jsx';
 
 function CompanyForm() {
   // State variables to store form data
@@ -10,10 +11,27 @@ function CompanyForm() {
   const [interviewDate, setInterviewDate] = useState('');
 
   // Function to handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here, e.g., sending data to server
-    console.log({ companyName, description, numberOfPeople, domain, interviewDate });
+    try {
+      // Make HTTP POST request to your backend API endpoint
+      const response = await axios.get('http://localhost:8000/api/submit_form/company', {
+        name,
+        description,
+        numberOfPeople, // Include availability in the form data
+        domain,
+        interviewDate
+      });
+      console.log('Form submitted successfully:', response.data);
+      // Reset form fields after successful submission
+      setName('');
+      setDescription('');
+      setNumberofpeople('');
+      setDomain('');
+      setInterviewDate('');
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
   };
 
   return (<>
